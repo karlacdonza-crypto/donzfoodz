@@ -34,7 +34,10 @@
 			<id>localstack-repo</id>
 			<url>https://oss.sonatype.org/content/repositories/releases/</url>
 		</repository>
-
+		<repository>
+			<id>central</id>
+			<url>https://repo.maven.apache.org/maven2</url>
+		</repository>
 		<!-- Spring Cloud AWS -->
 		<!-- Remover este repositório: Exige autenticacao-->
 		<!--
@@ -122,7 +125,11 @@
 			<artifactId>spring-cloud-aws-starter</artifactId>
 			<version>3.1.0</version>
 		</dependency>
-
+		<dependency>
+			<groupId>io.awspring.cloud</groupId>
+			<artifactId>spring-cloud-aws-messaging</artifactId>
+			<version>2.4.2</version>
+		</dependency>
 		<dependency>
 			<groupId>com.h2database</groupId>
 			<artifactId>h2</artifactId>
