@@ -1,0 +1,14 @@
+{
+  "pedido": {
+    "numero": "e4a1b0c6-1f37-5d0f-9f1e-2b9f0e4c8d6a",
+    "cliente": {
+      "id": "12345",
+      "nome": "João da Silva",
+      "email": "joao.silva@email.com"
+    },
+    "dataHora": "2025-08-24T12:30:00",
+    "descricao": "2 camisetas tamanho M, 1 boné",
+    "origem": "e-commerce",
+    "status": "pendente"
+  }
+}
